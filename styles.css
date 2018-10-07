@@ -47,14 +47,14 @@ body {
      display: none;
   }
    #header #logotext {
-     font-size: 0.9em;
+     font-size: 0.7em;
      position: relative;
      left: -14px;
   }
    #header ul {
      right: 10px;
      position: relative;
-     font-size: 0.7em;
+     font-size: 0.67em;
      flex-wrap: nowrap;
      width: 200px;
   }
