@@ -30,8 +30,8 @@ body {
  #header {
    margin: 0 auto;
    box-shadow: 0px 10px 40px #b8b894;
-   width: 90%;
-   background-color: #1e1e1e;
+   width: 80%;
+   background-color: #545454;
    height: 3.4em;
    display: flex;
    justify-content: space-around;
@@ -75,7 +75,6 @@ body {
  #logotext {
    font-family: 'Righteous', sans-serif;
    font-size: 1.7em;
-   background-color: #1e1e1e;
    color: #fff2e6;
    border-radius: 2px;
    margin-left: -15px;
@@ -92,14 +91,23 @@ body {
    margin: 10vw 0 auto;
 }
  #topsection {
-   margin: 0 auto;
-   margin-top: 5em;
+  margin-top: -3.5em;
    display: flex;
    flex-direction: row;
    width: 100%;
-   height: 15em;
-   justify-content: space-around;
+   height: 100vh;
+   justify-content: center;
+   align-items: center;
+}
+#topsection-bg {
+   width: 0;
+      height: 0;
+      border-left: 250px solid transparent;
+      border-right: 250px solid transparent;
+      border-bottom: 500px solid #dc5a5a;
 
+  position: absolute;
+  z-index: -1;
 }
  @media (max-width: 600px) {
    #topsection {
@@ -115,19 +123,20 @@ body {
    text-align: center;
 }
  .introbox1 {
+
+   margin-left: 6.2em;
    display: flex;
-   border: 1px solid green;
-   width: 18em;
+   width: 20em;
    height: 15em;
-   border-top: 0.2vw solid green;
+   border-bottom: 0.2vw solid green;
    display: flex;
    align-items: center;
    justify-content: center;
 }
  .introbox3 {
    display: flex;
-   border: 1px solid orange;
-   width: 18em;
+   margin-right: 6.2em;
+   width: 20em;
    height: 15em;
    border-top: 0.2vw solid orange;
    display: flex;
@@ -168,7 +177,7 @@ body {
   }
 }
  #features {
-   margin-top: 1vw;
+   margin-top: 4vw;
    width: 100%;
    height: 100%;
    display: flex;
@@ -177,9 +186,8 @@ body {
 }
  .featuregrid {
    margin-top: 5vw;
-   border-bottom: 0.3vw solid darkorange;
    width: 80%;
-   height: 11em;
+   height: 13em;
    background-color: #e0ebeb;
    display: flex;
    flex-direction: row;
