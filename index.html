@@ -1,52 +1,53 @@
-
-<!DOCTYPE html>
-<head>
+<html><head>
   <title> Cybersynth</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" type="text/css" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Notable|Righteous" rel="stylesheet">
-<link rel="stylesheet" <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<link rel="stylesheet" <link="" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Chathura" rel="stylesheet">
+
 </head>
 
-<div id="headercont"> 
+<body><div id="headercont"> 
     <header id="header">
       <div id="logodiv">
-      <img id="header-img" src="https://image.flaticon.com/icons/svg/199/199424.svg">     
+  
       </div>
       <p id="logotext"><a href="#"> cybersynth</a>
       </p>
       <nav id="nav-bar">
         <ul>
           <li> <a class="nav-link" href="#features">Features</a></li>
-          <li ><a class=" nav-link" href="#howitworks">How It Works</a></li>
-          <li ><a class="nav-link" href="#pricingsec">Pricing</a></li>
+          <li><a class=" nav-link" href="#howitworks">How It Works</a></li>
+          <li><a class="nav-link" href="#pricingsec">Pricing</a></li>
         </ul>
       </nav>
     </header>
 </div>
-
-<div id="container">
+<div id="topsection-bg"> 
+</div>
   <div id="topsection">
-    <div id="topsection-bg"></div>
+    <div id="bgsquare"></div>
+<img id="mainpic" src="cybersynth.png">
     <div class="introbox1">
-      <p class="mkttext">
+      <p class="mkttext-left">
     Endless creation
       </p>
     </div>
-    <div class="introbox2">
-    <img id="mainpic" src=cybersynth.png>
-   </div>
+   
    <div class="introbox3">
-    <p class="mkttext">Seamless integration</p>
+    <p class="mkttext-right">Seamless integration</p>
    </div>
   </div>
-</div>
 
 <section id="features">
   <div class="featuregrid">
-        <div class ="icon">
+        <div class="icon">
         <i class="fas fa-fire"></i>
          </div>
     <div class="dcontainer">
@@ -57,7 +58,7 @@
   </div>
   
  <div class="featuregrid">
-   <div class ="icon">
+   <div class="icon">
     <i class="fas fa-truck"></i>
     </div>
     <div class="dcontainer">
@@ -68,7 +69,7 @@
  </div>
   
  <div class="featuregrid">
-  <div class ="icon">
+  <div class="icon">
     <i class="fas fa-check"></i>
   </div>
    <div class="dcontainer">
@@ -78,33 +79,45 @@
 </div>
 
 </section>
-  <section id ="howitworks">  
-    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/LadUft_ly50" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>   
+  <section id="howitworks">  
+    <iframe id="video" width="400" height="315" src="https://www.youtube.com/embed/LadUft_ly50" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>   
+    <div id="videotext">
+      <h2 id="videotext-header">Features</h2>
+      <ul id="features-ul">
+        <li>DUAL SOURCE NOISE GENERATOR</li>
+        <li>TRIANGLE CORE OSCILLATORS</li>
+        <li>MIXER</li>
+        <li>LADDER AND STATE VARIABLE FILTERS</li>
+      </ul>
+    </div>
 </section>     
 
 <section id="pricingsec"> 
   <div class="desccontainer">
+    <img class ="pricingimg" src="synth1png.png">
     <div class="titlecontainer">
     <h2>Basic Synth</h2>
     </div>
-    <h3>$300<h3>
-      <p>All of the basics at a great price. Great for making sounds. Lots of keys and some other things.</p>
+    <h3>$300</h3>
+      <p class="pricingdesc1">All of the basics at a great price. Great for making sounds. Lots of keys and some other things.</p>
    </div>
       
 <div class="desccontainer">
+  <img class ="pricingimg2" src="synth2png.png">
    <div class="titlecontainer">
     <h2>PrePro Synth</h2>
     </div>
-    <h3>$700<h3>
-      <p>Full-featured synthesizer with included condenser microphone delivers an instant and seamless studio experience.</p>
+    <h3>$700</h3>
+      <p class="pricingdesc2">Full-featured synthesizer with included condenser microphone delivers an instant and seamless studio experience.</p>
    </div>
       
       <div class="desccontainer">
+        <img class ="pricingimg" src="synth3png.png">
     <div class="titlecontainer">
     <h2>CyberPro Synth</h2>
     </div>
-    <h3>$1300<h3>
-      <p>A fantastic price, considering this business doesn't exist because I'm just practicing making websites.</p>
+    <h3>$1300</h3>
+      <p class="pricingdesc1">A fantastic price, considering this business doesn't exist because I'm just practicing making websites.</p>
    </div>
     
   
@@ -114,9 +127,10 @@
 <section id="signup">
   <div id="emailwrapper">
     <h2> Receive our weekly newsletter</h2>
-    <form id="form" action="https://www.freecodecamp.com/email-submit">
-    <input type="email" id="email" name ="email" placeholder="Enter your email">
-    <input type="submit" id="submit" value="Get Started" name ="submit" class="btn">
+    <form id="form" action="">
+    <input type="email" id="email" name="email" placeholder="Enter your email">
+    <button type="submit" id="submit" value="Get Started" name="submit" class="btn">Submit</button>
+    
     </form>
   </div>
 </section>
@@ -131,3 +145,4 @@
     </div>
     <p id="footertext">This is a footer.</p>
   </footer>
+</body></html>
