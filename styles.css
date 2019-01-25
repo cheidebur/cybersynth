@@ -1,12 +1,11 @@
 body, html {
-   background-color: #white;
    margin: 0 auto;
 }
  a {
    color: #fff2e6;
    text-decoration: none;
 }
- btn {
+.btn {
    height: 2vw;
    width: 5vw;
    background-color: blue;
@@ -25,6 +24,7 @@ c p, h3 {
    height: 3.4em;
    position: fixed;
    z-index: 2;
+   overflow: hidden;
 }
  #header {
    margin: 0 auto;
@@ -42,6 +42,13 @@ c p, h3 {
    #header {
      width: 21.5em;
   }
+   body {
+  	background-color: #ff7c0c;
+  }
+ 
+   #topsection-bg {
+   	display: none;
+   }
    #header #header-img {
      display: none;
   }
@@ -125,7 +132,7 @@ width:70%;
    display: flex;
    flex-direction: row;
    width: 100%;
-   height: 99vh;
+   height: 85vh;
    justify-content: center;
    align-items: center;
    overflow: hidden;
@@ -135,10 +142,10 @@ width:70%;
   margin-top: -13em;
   width: 0;
   height: 0;
-  border-left: 47vh dotted black;
+  border-left: 26vw dotted black;
   border-right: 35em solid red;
   border-bottom: 120vw solid #996876;
-  position: absolute;
+  position: fixed;
   z-index: -10;
 }
 #bgsquare{
@@ -149,7 +156,7 @@ width:70%;
   width: 20em;
   right: 28px;
   position: absolute;
-  z-index: -3;
+  z-index: 1;
 }
  @media (max-width: 600px) {
    #topsection {
@@ -193,7 +200,8 @@ width:70%;
     font-size: 4.5vw;
   }
 }
- .introbox1 {margin-bottom: 19vh;margin-right: 4em;background-color: #1773a9ad;display: flex;width: 13em;height: 8em;height: 5em;isplay: flex;border: 4px solid #976876;align-items: center;justify-content: center;}
+ .introbox1 {margin-bottom: 19vh;
+ 	z-index:2;margin-right: 4em;background-color: #1773a9ad;display: flex;width: 13em;height: 8em;height: 5em;isplay: flex;border: 4px solid #976876;align-items: center;justify-content: center;}
  @media (max-width: 600px) {
   .introbox1 {
     border-bottom: transparent;
@@ -218,6 +226,7 @@ width:70%;
    align-items: center;
    justify-content: space-around;
    margin-top: 31vh;
+   z-index:2;
 }
  .introbox2 {
    display: flex;
@@ -501,14 +510,14 @@ width:70%;
    .desccontainer h2 {
      font-size: 1.15em;
   }
+
+
+  
    .desccontainer h3 {
      font-size: 0.8em;
   }
    .desccontainer p {
      font-size: 1em;
-  }
-  #topsection-bg {
-    display: none;
   }
   #features: {
     margin-top: -11em;
