@@ -500,10 +500,13 @@ width:70%;
    font-size: 1.2em;
 }
  #footertext {
+   color: antiquewhite;
    display: inline-block;
-   width: 9em;
-   border: 1px solid gray;
-   height: 1.4em;
+   width: 43%;
+   /* border: 1px solid gray; */
+   height: 60%;
+   font-family:roboto;
+   font-size: 0.9em;
 }
 
  @media (max-width: 600px) {
