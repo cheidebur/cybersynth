@@ -1,0 +1,203 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: #89a4ff;  
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+body {
+   margin: 0;
+}
+#stickynav {
+  width: 100%;
+  height: 3em;
+  position: fixed;
+  z-index: 2;
+
+}
+#navbar {
+  margin-left: auto;
+  margin-right: auto;
+  right: 0;
+  left: 0;
+  height: 3em;
+  width: 50%;
+  border: 1px solid black;
+  display:flex;
+  justify-content: space-around;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+ width: 80%;
+  margin: 0;
+  padding: 0;
+}
+li {
+  font-family: "libre franklin";
+  font-size: .em;
+}
+#welcome-section {
+  height: 4em;
+  background-color: #ffb089;
+  min-height: 100%;
+  overflow: auto;
+  border-bottom: 3px solid white
+ 
+  width: 100wh;
+  height: 90vh;
+  color: #fff;
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background-size: 300% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+.hi {
+  margin-top: 0;
+  padding-top: 44vh;
+  text-align: center;
+  font-family: "libre franklin";
+}
+.hi2 {
+   text-align: center;
+    font-family: "libre franklin";
+  margin-bottom: 4em;
+}
+#projects { 
+  background:#ffb089;
+  min-height: 150%;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 2em;
+  padding-top: 5em;
+}
+#seemore {
+  display: block;
+  margin: 0 auto;
+  height: 4em;
+  border-radius: 6px;
+  border: 2px solid white;
+  font-family:"libre franklin";
+  font-size: .9em;
+  color: white;
+  background-color: #89b7de;
+  width: 14em;
+}
+.project-tile {
+  font-size: 4.3em;
+  font-family: "libre Franklin";
+width: 30vw;
+  height: 20vw;
+  background-color:gray;
+  border: 2px white;
+}
+.project-tile.a {
+  font-family: "Righteous";
+  color: white;
+}
+.contactcaption {
+  text-align: center;
+  background-color: #fff;
+  font-size: .8em; 
+  height: 20%;
+  width: 100%;
+ font-family: "libre franklin";
+  position: absolute;
+}
+.contactcaption p {
+  position: relative;
+  top: 10%;
+  transform: translateY(-50%);
+}
+
+#contact {
+ height: 25em;
+ background: #7b8fad;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.contacttile {
+  height: 10em;
+  width: 10em;
+  border-radius: 50%;
+  border: 1px solid white;
+  position: relative;
+}
+.contactimg {
+  width: 100%;
+  height: auto;
+position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 24px;
+  border-radius: 50%;
+}
+footer{
+  background:#7bad8a;
+    height: 4em;
+}
+
+@media only screen and (max-width: 600px) {
+  
+    #navbar, #stickynav {
+       height: 1.5em;
+    width: 100%;
+    background-color: #ffb089;
+      border: 0px;
+    }
+  #projects, #contact {
+        display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 55em;
+  }
+  #contact{
+    height: 45em;
+  }
+}

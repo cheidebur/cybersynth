@@ -1,7 +1,7 @@
 <html><head>
   <title> Cybersynth</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Notable|Righteous" rel="stylesheet">
@@ -10,19 +10,27 @@
 <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Chathura" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+
 
 </head>
 
-<body><div id="headercont"> 
+<body>
+  <div id="header-fade-bar"></div>
+  <div id="headercont"> 
     <header id="header">
-      <div id="logodiv">
-  
-      </div>
-      <p id="logotext"><a href="#"> cybersynth</a>
+      
+      <p id="logotext"><a id="logo-text" href="#"> cybersynth</a>
       </p>
-      <nav id="nav-bar">
+     
         <ul>
-          <li> <a class="nav-link" href="#features">Features</a></li>
+          <li class="nav-link"> <a class="nav-link" href="#features">Features</a></li>
           <li><a class=" nav-link" href="#howitworks">How It Works</a></li>
           <li><a class="nav-link" href="#pricingsec">Pricing</a></li>
         </ul>
@@ -44,7 +52,6 @@
     <p class="mkttext-right">Seamless integration</p>
    </div>
   </div>
-
 <section id="features">
   <div class="featuregrid">
         <div class="icon">
@@ -52,7 +59,7 @@
          </div>
     <div class="dcontainer">
     <h2 class="featitle">Premium Materials</h2>
-    <p class="featuredesc">Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.
+    <p class="featuredesc">Our synthesizers use the shiniest metal which is sourced locally. This will increase the longevity of your purchase.
     </p>
     </div>
   </div>
@@ -63,7 +70,7 @@
     </div>
     <div class="dcontainer">
       <h2 class="featitle">Fast Shipping</h2>
-      <p class="featuredesc">We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.
+      <p class="featuredesc">We make sure you recieve your synthesizer as soon as we have finished making it. We also provide free returns if you are not satisfied.
      </p>
     </div>
  </div>
@@ -74,7 +81,7 @@
   </div>
    <div class="dcontainer">
     <h2 class="featitle">Quality Assurance</h2>
-    <p class="featuredesc">For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+    <p class="featuredesc">For every purchase you make, we will ensure there are no damages or faults and we will check and test the integrity of your instrument.</p>
    </div>
 </div>
 
@@ -97,33 +104,35 @@
     <img class ="pricingimg" src="synth1png.png">
     <div class="titlecontainer">
     <h2>Basic Synth</h2>
+        <h3>$300</h3>
+
     </div>
-    <h3>$300</h3>
-      <p class="pricingdesc1">All of the basics at a great price. Great for making sounds. Lots of keys and some other things.</p>
+      <p class="pricingdesc">All of the basics at a great price. Great for making sounds. Lots of keys and some other things.</p>
    </div>
       
 <div class="desccontainer">
-  <img class ="pricingimg2" src="synth2png.png">
+  <img class ="pricingimg" src="synth2png.png">
    <div class="titlecontainer">
     <h2>PrePro Synth</h2>
+        <h3>$700</h3>
+
     </div>
-    <h3>$700</h3>
-      <p class="pricingdesc2">Full-featured synthesizer with included condenser microphone delivers an instant and seamless studio experience.</p>
+      <p class="pricingdesc">Full-featured synthesizer with included condenser microphone delivers an instant and seamless studio experience.</p>
    </div>
       
       <div class="desccontainer">
         <img class ="pricingimg" src="synth3png.png">
     <div class="titlecontainer">
     <h2>CyberPro Synth</h2>
+        <h3>$1300</h3>
+
     </div>
-    <h3>$1300</h3>
-      <p class="pricingdesc1">A fantastic price, considering this business doesn't exist because I'm just practicing making websites.</p>
+      <p class="pricingdesc">A fantastic price, considering this business doesn't exist because I'm just practicing making websites.</p>
    </div>
     
   
 </section>
 
-        
 <section id="signup">
   <div id="emailwrapper">
     <h2> Receive our weekly newsletter</h2>
