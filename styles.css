@@ -79,7 +79,7 @@ li {
   .introbox3
   {
     margin-top: -2em;
-    width: 13em;
+    /* width: 13em; */
     margin-left: 2em;
   }
   #howitworks {
@@ -149,7 +149,7 @@ a {
    align-items: center;
    overflow: hidden;
    font-size: 3vw;
-   max-width: 704px;
+   max-width: 1024px;
    z-index:;
    margin: 0 auto;
 }
@@ -221,17 +221,17 @@ p.mkttext-right {
   margin-bottom: 6em;
   margin-left: 3em;
   }
- @media screen and (max-width: 745px) {
+ @media screen and (max-width: 768px) {
   .introbox1 {
     border-bottom: transparent;
     margin-bottom: -3em;
     margin-right: 0em;
-    margin-top:4em;
+    /* margin-top:4em; */
     font-size: 1.6em;
     /* background-color: transparent; */
   }
     #topsection-bg {
-  background-size: 350%;
+  background-size: 200%;
 }
 #topsection{
   height:65vh;
@@ -326,12 +326,13 @@ p.mkttext-right {
    width: 60%;
    margin-right: 5em;
    position: absolute;
+   margin-top:1.3em;
 }
 .dcontainer h2 {
   font-size: 2.2em;
   color: #cad5e2;
   /* margin-left: -1em; */
-  font-family: quicksand;
+  /* font-family: quicksand; */
 }
 
 
@@ -374,7 +375,7 @@ p.mkttext-right {
   border-radius: .4em;
   width: 73%;
   margin: 0 auto;
-  margin-top: 1em;
+  margin-top: 3em;
   margin-bottom: 2em;
   height: 10em;
   display: flex;
