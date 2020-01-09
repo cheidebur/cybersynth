@@ -380,9 +380,9 @@ footer {
 #signup {
   padding-bottom: 5em;
   display: flex;
-  padding-top: 6em;
+  padding-top: 5em;
   justify-content: center;
-  background-color: #383838;
+  background-color: #232323;
 }
 #emailwrapper {
   margin-top: 1em;
