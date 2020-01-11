@@ -345,12 +345,14 @@ p.mkttext-right {
 }
 .pricingdesc {
   font-family: "Assistant";
+  text-align: right;
 }
 .titlecontainer {
   position: relative;
   font-family: "pt sans narrow";
   font-size: 3em;
   color: white;
+  text-align: left;
 }
 .desccontainer {
   /* display: inline-block; */
@@ -479,5 +481,8 @@ footer {
     right: 0;
     left: 0;
     max-height: 100%;
+  }
+  #footertext {
+    font-size: 1.2em;
   }
 }
