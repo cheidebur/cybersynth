@@ -14,7 +14,6 @@ li {
 }
 h2 {
   margin-top: 2em;
-  display: inline;
   font-family: "PT Sans Narrow";
 }
 .featitle {
@@ -91,7 +90,6 @@ p, h3 {
 #features {
   margin-top: -4em;
 }
-#pricingsec {}
 #video {
   margin: 0 auto;
   margin: 1em;
@@ -255,7 +253,6 @@ p.mkttext-right {
   position: absolute;
 }
 
-}
 .dcontainer {
   width: 60%;
   margin-right: 5em;
@@ -307,10 +304,12 @@ p.mkttext-right {
   flex-direction: row;
   justify-content: space-around;
   margin: 0 auto;
+  margin-bottom: 2em;
 }
 #videotext {
-  width: 16em;
-  height: 24em;
+  width: 40%;
+  min-width: 20em;
+  height: 27em;
   background-color: #383838;
   box-shadow: 1em 1.3em #292828;
   border-top: 15px solid #403e3e;
@@ -445,8 +444,19 @@ footer {
 
 /* media queries */
 @media screen and (max-width: 600px) {
+  .nav-link {
+    font-size: .6em;
+    letter-spacing: .1em
+  }
+  #logo-text {
+    padding-left: .5em;
+  }
+  #header ul {
+    padding: 0;
+  }
   #logotext {
     font-size: 1.3em;
+    margin: 0;
   }
    .introbox1 {
     border-bottom: transparent;
